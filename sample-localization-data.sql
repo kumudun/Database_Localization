@@ -1,0 +1,98 @@
+USE shopping_cart_localization;
+
+DELETE FROM localization_strings;
+
+INSERT INTO localization_strings (`key`, value, language) VALUES
+('select.language', 'Select the language:', 'en'),
+('enter.number.of.items', 'Enter number of items:', 'en'),
+('number.of.items.prompt', 'Number of items', 'en'),
+('enter.items', 'Enter Items', 'en'),
+('instruction', 'After entering the number of items, click Enter Items and fill price and quantity for each item.', 'en'),
+('enter.price.for.item', 'Enter price for item', 'en'),
+('enter.quantity.for.item', 'Enter quantity for item', 'en'),
+('calculate.total', 'Calculate Total', 'en'),
+('total.cost', 'Total cost:', 'en'),
+('item', 'Item', 'en'),
+('item.total', 'Item total:', 'en'),
+('error.title', 'Error', 'en'),
+('error.invalid.items', 'Please enter a valid number of items.', 'en'),
+('error.positive.items', 'Please enter a positive number of items.', 'en'),
+('error.enter.items.first', 'Please click Enter Items first.', 'en'),
+('error.nonnegative.values', 'Price and quantity must be zero or greater.', 'en'),
+('error.invalid.price.quantity', 'Invalid price or quantity for item', 'en');
+
+INSERT INTO localization_strings (`key`, value, language) VALUES
+('select.language', 'Valitse kieli:', 'fi'),
+('enter.number.of.items', 'Syötä ostettavien tuotteiden määrä:', 'fi'),
+('number.of.items.prompt', 'Tuotteiden määrä', 'fi'),
+('enter.items', 'Syötä tuotteet', 'fi'),
+('instruction', 'Kun olet syöttänyt tuotteiden määrän, napsauta "Syötä tuotteet" ja täytä jokaisen tuotteen hinta ja määrä.', 'fi'),
+('enter.price.for.item', 'Syötä tuotteen hinta', 'fi'),
+('enter.quantity.for.item', 'Syötä tuotteen määrä', 'fi'),
+('calculate.total', 'Laske summa', 'fi'),
+('total.cost', 'Kokonaishinta:', 'fi'),
+('item', 'Tuote', 'fi'),
+('item.total', 'Tuotteen summa:', 'fi'),
+('error.title', 'Virhe', 'fi'),
+('error.invalid.items', 'Anna kelvollinen tuotteiden määrä.', 'fi'),
+('error.positive.items', 'Anna positiivinen tuotteiden määrä.', 'fi'),
+('error.enter.items.first', 'Napsauta ensin "Syötä tuotteet".', 'fi'),
+('error.nonnegative.values', 'Hinnan ja määrän tulee olla nolla tai suurempi.', 'fi'),
+('error.invalid.price.quantity', 'Virheellinen hinta tai määrä tuotteelle', 'fi');
+
+INSERT INTO localization_strings (`key`, value, language) VALUES
+('select.language', 'Välj språk:', 'sv'),
+('enter.number.of.items', 'Ange antalet varor:', 'sv'),
+('number.of.items.prompt', 'Antal varor', 'sv'),
+('enter.items', 'Ange varor', 'sv'),
+('instruction', 'Efter att du har angett antalet varor, klicka på "Ange varor" och fyll i pris och antal för varje vara.', 'sv'),
+('enter.price.for.item', 'Ange priset för varan', 'sv'),
+('enter.quantity.for.item', 'Ange mängden varor', 'sv'),
+('calculate.total', 'Beräkna total', 'sv'),
+('total.cost', 'Total kostnad:', 'sv'),
+('item', 'Vara', 'sv'),
+('item.total', 'Varans total:', 'sv'),
+('error.title', 'Fel', 'sv'),
+('error.invalid.items', 'Ange ett giltigt antal varor.', 'sv'),
+('error.positive.items', 'Ange ett positivt antal varor.', 'sv'),
+('error.enter.items.first', 'Klicka först på "Ange varor".', 'sv'),
+('error.nonnegative.values', 'Pris och antal måste vara noll eller större.', 'sv'),
+('error.invalid.price.quantity', 'Ogiltigt pris eller antal för vara', 'sv');
+
+INSERT INTO localization_strings (`key`, value, language) VALUES
+('select.language', '言語を選択してください:', 'ja'),
+('enter.number.of.items', '購入する商品の数を入力してください:', 'ja'),
+('number.of.items.prompt', '商品の数', 'ja'),
+('enter.items', '商品を入力', 'ja'),
+('instruction', '商品の数を入力した後、「商品を入力」をクリックし、各商品の価格と数量を入力してください。', 'ja'),
+('enter.price.for.item', '商品の価格を入力してください', 'ja'),
+('enter.quantity.for.item', '商品の数量を入力してください', 'ja'),
+('calculate.total', '合計を計算', 'ja'),
+('total.cost', '合計金額:', 'ja'),
+('item', '商品', 'ja'),
+('item.total', '商品合計:', 'ja'),
+('error.title', 'エラー', 'ja'),
+('error.invalid.items', '正しい商品数を入力してください。', 'ja'),
+('error.positive.items', '1以上の商品数を入力してください。', 'ja'),
+('error.enter.items.first', '最初に「商品を入力」をクリックしてください。', 'ja'),
+('error.nonnegative.values', '価格と数量は0以上である必要があります。', 'ja'),
+('error.invalid.price.quantity', '商品の価格または数量が無効です', 'ja');
+
+INSERT INTO localization_strings (`key`, value, language) VALUES
+('select.language', 'اختر اللغة:', 'ar'),
+('enter.number.of.items', 'أدخل عدد العناصر:', 'ar'),
+('number.of.items.prompt', 'عدد العناصر', 'ar'),
+('enter.items', 'أدخل العناصر', 'ar'),
+('instruction', 'بعد إدخال عدد العناصر، اضغط على "أدخل العناصر" ثم أدخل السعر والكمية لكل عنصر.', 'ar'),
+('enter.price.for.item', 'أدخل سعر العنصر', 'ar'),
+('enter.quantity.for.item', 'أدخل كمية العنصر', 'ar'),
+('calculate.total', 'احسب الإجمالي', 'ar'),
+('total.cost', 'التكلفة الإجمالية:', 'ar'),
+('item', 'العنصر', 'ar'),
+('item.total', 'إجمالي العنصر:', 'ar'),
+('error.title', 'خطأ', 'ar'),
+('error.invalid.items', 'يرجى إدخال عدد صحيح من العناصر.', 'ar'),
+('error.positive.items', 'يرجى إدخال عدد موجب من العناصر.', 'ar'),
+('error.enter.items.first', 'يرجى الضغط أولاً على "أدخل العناصر".', 'ar'),
+('error.nonnegative.values', 'يجب أن يكون السعر والكمية صفراً أو أكبر.', 'ar'),
+('error.invalid.price.quantity', 'سعر أو كمية غير صحيحة للعنصر', 'ar');

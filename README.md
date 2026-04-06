@@ -54,15 +54,13 @@ Before starting, make sure the following software is installed on your computer:
 
 You can verify Java and Maven by running:
 
-```bash
-java --version
-mvn --version
+
 
 ### Step 1: Clone the Repository
 
 - Clone the project from GitHub to your local machine:
 
-```bash
+
 git clone https://github.com/kumudun/Database_Localization.git
 cd Database_Localization
 
@@ -141,7 +139,7 @@ translation data in localization_strings
 
 ## Project Structure
 
-```text
+
 src/
  ├── main/
  │   ├── java/

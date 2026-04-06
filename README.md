@@ -139,7 +139,7 @@ translation data in localization_strings
 
 ## Project Structure
 
-
+```text
 src/
  ├── main/
  │   ├── java/
